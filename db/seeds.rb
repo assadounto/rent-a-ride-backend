@@ -20,5 +20,5 @@ Car.create([
 ])
 
 
-User.create(name: "rich", email: "rich@gmail.com", password: "123456", password_confirmation: "123456",role: "admin")
+User.create(username: "rich", email: "rich@gmail.com", password: "123456", password_confirmation: "123456",role: "admin")
 
