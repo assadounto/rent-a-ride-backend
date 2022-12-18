@@ -9,7 +9,4 @@ class User < ApplicationRecord
             length: { minimum: 6 },
             if: -> { new_record? || !password.nil? }
 
-  def admin?
-    self.role == "admin"
-  end
 end
