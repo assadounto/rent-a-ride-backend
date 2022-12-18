@@ -1,5 +1,5 @@
 class AuthenticationTokenService
-  HMAC_SECRET = Rails.application.secrets.secret_key_base
+  HMAC_SECRET = "mysecret"
   ALGORITHM_TYPE = 'HS256'
 
   def self.encode(id)
