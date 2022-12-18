@@ -1,6 +1,6 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do 
   allow do
-  origins 'https://rent-a-ride.netlify.app'
+  origins 'https://rent-a-ride.vercel.app'
   
   resource '*',
   headers: :any,
